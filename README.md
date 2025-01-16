@@ -14,22 +14,23 @@ git clone https://github.com/johncullinane401/cli-zip-app
 2. Install the dependencies:
 pip install typer py7zr rarfile
 
-### Usage
+# Usage
 Ensure your pwd is the directory where the zipmanager.py is located.
+The following functions are currently implemented:
 
-# Compress a file/folder to .zip
+## Compress a file/folder to .zip
 python zipmanager.py file-to-zip <source_path> <destination_path>
 
-# Unzip .zip file contents to current directory
+## Unzip .zip file contents to current directory
 python zipamanager.py unzip-here <source_path> 
 
-# Unzip .zip file contents to a new folder in current directory
+## Unzip .zip file contents to a new folder in current directory
 python zipamanager.py unzip-here <source_path> <folder_name>
 
-# Unzip a .rar file contents to a new folder in the current directory
+## Unzip a .rar file contents to a new folder in the current directory
 python zipmanager.py unzip-rar <source_path> <folder_name>
 
-# Unzip a .7z file contents to a new folder in the current directory
+## Unzip a .7z file contents to a new folder in the current directory
 python zipmanager.py unzip-rar <source_path> <folder_name>
 
 # License
